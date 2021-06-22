@@ -2,9 +2,9 @@
 
 In this workload manager app, user can add a work load  by choosing complexity and clicking on 'Start Work Button'.
 There are some dummy workload list already displayed when you start the app.
-Each Workload has 2 buttons 'Mark Done' and 'Cancel'.
+Each Workload has 3 buttons 'Mark Done' , 'Cancel' and 'Reset'.
 When you add a new workload the status is displayed as 'pending'. 
-The 'Cancel' and 'Mark Done' Button updates the status of the workload.
+The 'Cancel','Reset' and 'Mark Done' Button updates the status of the workload.
 
 ## Available Scripts
 
