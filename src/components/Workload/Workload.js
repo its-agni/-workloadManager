@@ -10,6 +10,10 @@ const Workload = (props) => {
   const onDoneHandler = (event) => {
     setStatus("success");
   };
+  const onResetHandler = (event) => {
+    setStatus(props.status);
+  };
+
   return (
     <div>
       <div className="container">
@@ -21,6 +25,9 @@ const Workload = (props) => {
         </button>
         <button type="button" value="done" onClick={onDoneHandler}>
           Mark Done
+        </button>
+        <button type="reset" value="reset" onClick={onResetHandler}>
+          Reset
         </button>
       </div>
     </div>
