@@ -1,0 +1,16 @@
+form {
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 50rem;
+  max-width: 95%;
+  font-size: large;
+}
+button {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 2rem;
+}
